@@ -19,3 +19,8 @@ NAVIGATION
   color: #1abc9c !important;
 }
 
+section {
+  padding: 200px 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
