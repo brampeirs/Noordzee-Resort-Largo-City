@@ -30,6 +30,14 @@
     /></noscript>
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
+    
+    <script>
+      $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).collapse('hide');
+        }
+      });
+    </script>
 
   </head>
   <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="20">    
