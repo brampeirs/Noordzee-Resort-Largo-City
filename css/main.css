@@ -60,6 +60,7 @@ NAVIGATION
      -moz-transition: all 0.35s;
      transition: all 0.35s;
      padding-top: 15px;
+     border-bottom: 1px solid #DADFE2;
 }
 
 .navbar-header {
@@ -72,7 +73,7 @@ NAVIGATION
     color: #5fcf80;
     border-radius: 5px;
     border: solid 2px #5fcf80;
-    margin-left: 15px; /* mag eigenlijk enkel indien mobiel */
+    margin-left: 15px; 
 
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
@@ -101,6 +102,7 @@ NAVIGATION
 {  
   color: #5fcf80;
 }
+
 
 
 
