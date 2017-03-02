@@ -47,6 +47,11 @@ body {
      margin-left: 45px; 
 }
 
+.flag {
+  max-width: 32px;
+  height: auto;
+}
+
 /***********************************
 NAVIGATION
 ***********************************/
