@@ -77,6 +77,8 @@ NAVIGATION
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
+    
+
 
 }
 
@@ -99,6 +101,7 @@ NAVIGATION
 {  
   color: #5fcf80;
 }
+
 
 
 /*
