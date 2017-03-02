@@ -29,9 +29,9 @@ $('a.page-scroll').bind('click', function(event) {
     event.preventDefault();
 });
 
-  // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+// Offset for Main Navigation
+$('#mainNav').affix({
+    offset: {
+        top: 100
+    }
+})
