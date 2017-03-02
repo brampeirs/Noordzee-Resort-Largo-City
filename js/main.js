@@ -17,7 +17,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top',
-    offset: 20
+    offset: 80
 });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
