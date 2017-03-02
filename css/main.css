@@ -31,7 +31,8 @@ body {
   #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
   #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  #section5 {padding-top:50px;height:500px;color: #000; background-color: #fff;}
+  #section6 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
 .bg-primary {
   background-color: #F05F40;
@@ -40,6 +41,7 @@ body {
   background-color: #222222;
   color: white;
 }
+
 
 
 /***********************************
@@ -67,9 +69,13 @@ NAVIGATION
      -webkit-transition: all 0.35s;
      -moz-transition: all 0.35s;
      transition: all 0.35s;
-     padding-top: 15px;
-     border-bottom: 1px solid #DADFE2;
+     padding-top: 15px;     
 }
+
+/* add border when scrolling */
+.navbar-default.affix {    
+    border-bottom: 1px solid #DADFE2;
+  }
 
 .navbar-header {
   margin-bottom: 15px;
@@ -105,8 +111,6 @@ NAVIGATION
 .navbar-default .nav > li > a:hover {  
   color: #5fcf80;
 }
-
-
 
 
 /*

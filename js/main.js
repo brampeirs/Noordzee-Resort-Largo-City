@@ -28,3 +28,10 @@ $('a.page-scroll').bind('click', function(event) {
     }, 1250, 'easeInOutExpo');
     event.preventDefault();
 });
+
+  // Offset for Main Navigation
+    $('#mainNav').affix({
+        offset: {
+            top: 100
+        }
+    })
