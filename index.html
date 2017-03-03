@@ -69,6 +69,10 @@
     
     <div id="section1" class="container-fluid">
     <h1>Section 1</h1>
+    <script>
+      var x = "Language of the browser: " + navigator.language;
+      document.write("<h1>" + x + "</h1>");
+    </script>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
@@ -109,43 +113,8 @@
           <li><a href="#">Français</a></li>       
         </ul>
       </div>  
-<!-- SiteTran Begin -->
-<style>
-#sitetran_translate_element select { 
-	width         : 12em; 
-	margin-left   : 0.4em; 
-} 
- #sitetran_translate_element img { 
-	vertical-align: middle; 
-} 
- #sitetran_translate_element { 
-	z-index: 2147483647; 
-} 
-</style>
-<script>
-var sitetran_site_id = 949;
-var sitetran_site_default_language_code = "nl";
-var sitetran_url_type = "none"; 
-var sitetran_widget_type = "select"; 
-</script>
-<div id="sitetran_translate_element">
-<img src="//c.sitetran.com/sitetran_widget_logo.png" width="19" height="20" /> </div>
-<script src="//c.sitetran.com/widget/v1.js"></script>
-<!-- SiteTran End -->
+</div>
 
-
-      
-<script src="https://global.localizecdn.com/localize.js"></script>
-
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script>
- Localize.initialize({
-  key: '4Y6BELkM9tFqO',
-  rememberLanguage: true
- });
-</script>    
-    </div>
 
 
 
@@ -156,6 +125,14 @@ var sitetran_widget_type = "select";
 
     <!-- jQuery for smooth scrolling -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!--LocalePlanet scripts-->
+    <!-- Everywhere you display a number or date, use one of the icu.js functions to format it first. -->
+    <script src="http://www.localeplanet.com/api/auto/icu.js"></script>
+
+    <!-- Everywhere you display text, pass it to the _() function. -->
+    <script src="http://www.localeplanet.com/api/translate.js"></script>
+
     <script src="js/main.js"></script>
   </body>  
 </html>
