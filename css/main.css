@@ -192,7 +192,7 @@ HERO
   background: linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    ), url('../img/buitenzicht.jpg');
+    ), url('../img/buitenzicht_optimized.jpg');
   background-position: 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
