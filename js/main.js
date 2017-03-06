@@ -34,3 +34,19 @@ $('#mainNav').affix({
         top: 100
     }
 })
+
+//SWIPER
+  $(document).ready(function () {
+    //initialize swiper when document ready  
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      loop: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      autoplay: 3000,
+      autoplayDisableOnInteraction: false,
+      paginationType: 'fraction'
+    })        
+  });
