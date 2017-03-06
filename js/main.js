@@ -46,9 +46,10 @@ $('#mainNav').affix({
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       autoplay: 3500,
-      speed: 500,
-      autoplayDisableOnInteraction: false,
-      paginationType: 'fraction',
-      spaceBetween: 5
+      autoplayDisableOnInteraction: false,      
+      spaceBetween: 5,
+      paginationBulletRender: function (swiper, index, className) {
+            return '<span class="' + className + '"></span>';
+        }
     })        
   });
