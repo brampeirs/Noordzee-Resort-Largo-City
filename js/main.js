@@ -38,16 +38,16 @@ $('#mainNav').affix({
 
 //SWIPER
 
-  //initialize swiper after jquery loaded
-  var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    loop: true,
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    /*autoplay: 3500,
-    autoplayDisableOnInteraction: false,      */
-    spaceBetween: 5,
-  }) ;       
+//initialize swiper after jquery loaded
+var mySwiper = new Swiper ('.swiper-container', {
+  // Optional parameters
+  pagination: '.swiper-pagination',
+  paginationClickable: true,
+  loop: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  autoplay: 3500,
+  autoplayDisableOnInteraction: false,      
+  spaceBetween: 5,
+}) ;       
 
