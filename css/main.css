@@ -11,6 +11,11 @@ p {
   font-size: 1.2em;
 }
 
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
 section {
   padding: 60px 0;
 }
@@ -235,18 +240,42 @@ HERO
 
 
 /***********************************
-OMGEVING 
+CAROUSEL 
 ***********************************/
-
-.omgeving-omschrijving {
-    padding-bottom: 30px;
-}
 
 .carousel {
     max-width: 845px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
+hr {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+#faciliteiten ul  {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+}
+
+#faciliteiten li:before {
+  content: "•";
+  position: absolute;
+  left: -3px;
+  top: 2px;
+  font-size: 21px;
+  /*color: #d8d8d8;*/
+  color: #70B8FF;
+  left: -1px;
+  top: 0;
+}
+
+#faciliteiten li {
+    position: relative;
+    padding-left: 16px; 
+}
 
 
 /***********************************
