@@ -33,23 +33,21 @@ $('#mainNav').affix({
     offset: {
         top: 100
     }
-})
+});
+
 
 //SWIPER
-  $(document).ready(function () {
-    //initialize swiper when document ready  
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-      pagination: '.swiper-pagination',
-      paginationClickable: true,
-      loop: true,
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
-      autoplay: 3500,
-      autoplayDisableOnInteraction: false,      
-      spaceBetween: 5,
-      paginationBulletRender: function (swiper, index, className) {
-            return '<span class="' + className + '"></span>';
-        }
-    })        
-  });
+
+  //initialize swiper after jquery loaded
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    loop: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    /*autoplay: 3500,
+    autoplayDisableOnInteraction: false,      */
+    spaceBetween: 5,
+  }) ;       
+

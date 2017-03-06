@@ -1,4 +1,4 @@
-﻿/***********************************
+/***********************************
 GENERAL
 ***********************************/
 
@@ -301,8 +301,11 @@ SWIPER
 }
 
  .swiper-pagination-bullet {
-  /*background-color: rgba(0,0,0,0);*/
+  background-color: transparent;
     border: 1px solid #fff;
+   opacity: 1;
+       width: 10px;
+    height: 10px;
 /*    border-radius: 10px;
    height: 10px;
    width: 10px; */
