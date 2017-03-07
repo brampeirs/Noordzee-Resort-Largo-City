@@ -221,33 +221,29 @@ HERO
   }
 }
 
-.btn-boeken {
-  background-color: #70B8FF;
-  border: none;
+.offer {
+  text-align: center;
+}
+.btn-boeken, .btn-boeken:hover, .btn-boeken:visited {
+  border: solid 2px #70B8FF;
   border-radius: 4px;
+  background-color: #70B8FF;
   color: #fff;
-  display: inline-block;
-  height: 64px;
-  line-height: 67px;
-  outline: none;
-  padding: 0 40px;
+  padding: 13px 15px;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-size: 1.3em;
   text-decoration: none !important;
-  font-family: "gt-walsheim-medium", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: normal;
+  font-family: "Source Sans Pro", "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 
 
 /***********************************
-CAROUSEL 
+FACILITEITEN 
 ***********************************/
-
-.carousel {
-    max-width: 845px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
 
 hr {
   margin-top: 36px;
@@ -327,6 +323,13 @@ SWIPER
 /***********************************
 FOOTER
 ***********************************/
+.map {
+  padding-bottom: 0;
+}
+#google-map {
+  /*-webkit-filter: grayscale(100%);
+          filter: grayscale(100%);*/
+}
 
 .main-footer {
   padding-top: 50px;  
