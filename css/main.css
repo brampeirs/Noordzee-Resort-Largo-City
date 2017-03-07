@@ -146,11 +146,16 @@ NAVIGATION
   transition: all 0.35s;
 }
 
+/* http://www.colorhexa.com/70b8ff 
+   twee naar links bij Monochromatic Color
+*/
 .navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:focus,
+.navbar-default .navbar-header .navbar-brand:active {
   color: #fff;
-    background-color: #499ff5;
-  border: solid 2px #499ff5;
+  
+  background-color: #3d9fff;
+  border: solid 2px #3d9fff;
 }
 
 .navbar-default .nav li a,
@@ -290,9 +295,9 @@ HERO
   font-weight: 600;
 }
 
-.btn-boeken:hover, .btn-boeken:active {
-  background-color: #499ff5;
-  border: solid 2px #499ff5;
+.btn-boeken:hover, .btn-boeken:active, .btn-boeken:focus {
+  background-color: #3d9fff;
+  border: solid 2px #3d9fff;
 }
 
 
@@ -400,4 +405,10 @@ address .glyphicon {
 
 footer .btn-default {
   background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .dropup {
+        float: right;
+    }
 }
