@@ -390,3 +390,14 @@ FOOTER
   padding-bottom: 50px;  
 }
 
+address {
+  margin-left: 15px;
+}
+address .glyphicon {
+  position: absolute;
+  left: 10px;
+}
+
+footer .btn-default {
+  background-color: transparent;
+}
