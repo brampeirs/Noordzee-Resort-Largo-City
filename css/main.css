@@ -161,12 +161,16 @@ NAVIGATION
   transition: all 0.35s;
 }
 
-.navbar-default .navbar-nav .active a,
-.navbar-default .navbar-nav .active a:focus {
-  /*background-color: transparent;
-   color: #1E88E5;*/
-   border-radius: 4px;
+@media screen and (min-width: 768px) {
+  .navbar-default .navbar-nav .active a,
+  .navbar-default .navbar-nav .active a:focus {
+    /*background-color: transparent;
+     color: #1E88E5;*/
+     border-radius: 4px;
+  }
 }
+
+
 
 .navbar-default .navbar-nav li a:hover {
   /*color: #222222;*/
@@ -175,6 +179,52 @@ NAVIGATION
 .navbar-default .navbar-toggle {
   border-color: #fff;
 }
+
+
+
+
+/***********************************
+NAVBAR TOGLE ANIMATION TO X 
+https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/
+added collapsed class to <button type="button" class="navbar-toggle 
+add classes top-bar, middle-bar and bottom-bar to <span class="icon-bar
+***********************************/
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+/* default hamburger symbol */
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+
 
 
 /***********************************
@@ -335,44 +385,3 @@ FOOTER
   padding-bottom: 50px;  
 }
 
-
-/***********************************
-NAVBAR TOGLE ANIMATION TO X 
-https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/
-added collapsed class to <button type="button" class="navbar-toggle 
-add classes top-bar, middle-bar and bottom-bar to <span class="icon-bar
-***********************************/
-
-.navbar-toggle {
-  border: none;
-  background: transparent !important;
-}
-.navbar-toggle:hover {
-  background: transparent !important;
-}
-.navbar-toggle .icon-bar {
-  width: 22px;
-  transition: all 0.2s;
-}
-.navbar-toggle .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
-.navbar-toggle .middle-bar {
-  opacity: 0;
-}
-.navbar-toggle .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
-}
-
-/* default hamburger symbol */
-.navbar-toggle.collapsed .top-bar {
-  transform: rotate(0);
-}
-.navbar-toggle.collapsed .middle-bar {
-  opacity: 1;
-}
-.navbar-toggle.collapsed .bottom-bar {
-  transform: rotate(0);
-}
