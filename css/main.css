@@ -260,12 +260,10 @@ hr {
   content: "•";
   position: absolute;
   left: -3px;
-  top: 2px;
   font-size: 21px;
   /*color: #d8d8d8;*/
   color: #70B8FF;
   left: -1px;
-  top: 0;
 }
 
 #faciliteiten li {
