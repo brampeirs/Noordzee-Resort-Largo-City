@@ -315,7 +315,7 @@ hr {
 #faciliteiten ul  {
   list-style: none;
   padding: 0px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 #faciliteiten li:before {
