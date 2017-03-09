@@ -384,6 +384,7 @@ SWIPER
 /***********************************
 FOOTER
 ***********************************/
+
 .map {
   padding-bottom: 0;
 }
@@ -409,8 +410,23 @@ footer .btn-default {
   background-color: transparent;
 }
 
+.social-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.social-icons {
+  clear: both;
+  padding-top: 25px;
+}
+
 @media (min-width: 768px) {
-    .dropup {
-        float: right;
-    }
+  
+  .dropup {
+      float: right;
+  }
+  
+  .social-icon {
+    float: right;
+  }
 }
