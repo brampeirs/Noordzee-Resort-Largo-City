@@ -316,6 +316,7 @@ hr {
   list-style: none;
   padding: 0px;
   margin-top: 10px;
+  font-size: 15px;
 }
 
 #faciliteiten li:before {
