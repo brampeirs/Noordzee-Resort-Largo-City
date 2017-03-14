@@ -48,7 +48,7 @@ var mySwiper = new Swiper ('.swiper-container', {
   prevButton: '.swiper-button-prev',
   autoplay: 5000,
   speed: 500,
-  autoplayDisableOnInteraction: false,      
+  autoplayDisableOnInteraction: true,      
   spaceBetween: 5
 }) ;       
 
