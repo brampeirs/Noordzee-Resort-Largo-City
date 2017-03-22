@@ -424,11 +424,16 @@ footer .btn-default {
 .social-icon{
   width: 20px;
   height: 20px;
+  margin-left: 10px;
 }
 
 .social-icons {
   clear: both;
   padding-top: 25px;
+}
+
+.social-icon-like {
+  float: left;
 }
 
 @media (min-width: 768px) {
@@ -437,7 +442,8 @@ footer .btn-default {
       float: right;
   }
   
-  .social-icon {
+  .social-icon,
+  .social-icon-like {
     float: right;
   }
 }

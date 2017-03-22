@@ -33,7 +33,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" rel="stylesheet">
     
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,9 +80,12 @@
       ga('create', 'UA-93189032-2', 'auto');
       ga('send', 'pageview');
     </script>
+
   </head>
 
   <body>   
+    
+
 
     <header id="top"> 
       <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -299,7 +302,7 @@
       <div id="google-map" onclick="this.getElementsByTagName('iframe')[0].style.pointerEvents = 'auto'">
         <iframe width="100%" height="500" frameborder="0" style="border:0;padding:0;pointer-events:none;" onmouseout="this.style.pointerEvents = 'none'" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE6xV1tqZxEcR-lXygjBIQd4&key=AIzaSyDIrT8FqHG3iNhQAdE8BOy8YFti0Y7hFC8" allowfullscreen></iframe>
       </div>
-    </section>    
+    </section>  
     
     <footer class="bg-light">
       <div class="container main-footer">
@@ -325,13 +328,15 @@
                 <li><a href="fr/index.html">Français</a></li>
               </ul>
             </div>
-            <div class="social-icons">
-              <a href="https://www.facebook.com/vlissingenvakantie" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
-            </div>
+            <div class="social-icons">                            
+              <a href="https://www.facebook.com/vlissingenvakantie" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>              
+              <iframe class="social-icon-like" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fvlissingenvakantie%2F&width=105&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId=1192618400848395" width="105" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>            
           </div>
-        </div>                                  
+        </div>           
       </div>
     </footer>
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
