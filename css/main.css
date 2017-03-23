@@ -441,6 +441,9 @@ footer .btn-default {
 }
 
 @media (min-width: 768px) {
+  #fb {
+    margin-left: 15px;
+  }
   
   .dropup {
       float: right;
