@@ -436,14 +436,17 @@ footer .btn-default {
   float: left;
 }
 
+.dropup {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
   
   .dropup {
       float: right;
   }
   
-  .social-icon,
-  .social-icon-like {
+  .social-icon {
     float: right;
   }
 }
