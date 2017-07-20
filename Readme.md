@@ -1,2 +1,1 @@
-[Demo](https://brampeirs.github.io/Noordzee-Resort-Largo-City/)  
-[Live](https://www.vlissingenvakantie.nl)
+[Demo](https://www.vlissingenvakantie.nl)
